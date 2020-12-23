@@ -94,7 +94,6 @@ public class AccountService {
                 } catch(SQLException e) {
                     e.printStackTrace();
                 } finally{
-                    //connection.close();
                     preparedStatement.close();
                 }
             }
@@ -150,7 +149,6 @@ public class AccountService {
                 } catch(SQLException e) {
                     e.printStackTrace();
                 } finally{
-                   // connection.close();
                    preparedStatement.close();
                 }
             }
